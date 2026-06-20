@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Banking System</title>
+
+<!-- ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #0f172a, #1e293b);
+        color: white;
+        text-align: center;
+    }
+
+    .container {
+        padding-top: 100px;
+    }
+
+    h1 {
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        color: #cbd5e1;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        padding: 12px 30px;
+        margin: 10px;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .login {
+        background: #3b82f6;
+        color: white;
+    }
+
+    .register {
+        background: #10b981;
+        color: white;
+    }
+
+    .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    .features {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 220px;
+        padding: 25px;
+        border-radius: 15px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+        background: rgba(255,255,255,0.08);
+    }
+
+    .card i {
+        font-size: 28px;
+        margin-bottom: 10px;
+        color: #38bdf8;
+    }
+
+    .card h3 {
+        margin: 10px 0;
+    }
+
+    .footer {
+        margin-top: 60px;
+        font-size: 14px;
+        color: #94a3b8;
+    }
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+    <h1><i class="fa-solid fa-building-columns"></i> Online Banking System</h1>
+    <p class="subtitle">Secure | Fast | Smart Financial Management</p>
+
+    <!-- BUTTONS -->
+    <a href="index.html">
+        <button class="btn login">
+            <i class="fa-solid fa-right-to-bracket"></i> Login
+        </button>
+    </a>
+
+    <a href="index.html">
+        <button class="btn register">
+            <i class="fa-solid fa-user-plus"></i> Register
+        </button>
+    </a>
+</div>
+
+<!-- FEATURES -->
+<div class="features">
+
+    <div class="card">
+        <i class="fa-solid fa-money-bill-transfer"></i>
+        <h3>Transactions</h3>
+        <p>Deposit & withdraw money securely</p>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3>Analytics</h3>
+        <p>Track and analyze your spending</p>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-bell"></i>
+        <h3>Alerts</h3>
+        <p>Get smart balance notifications</p>
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2026 Online Banking System | Designed for Academic Project
+</div>
+
+</body>
+</html>
